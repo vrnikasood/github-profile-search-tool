@@ -18,4 +18,4 @@ API integration, data handling, front-end/back-end development, data visualizati
 
 GitHub API: Used to retrieve user profiles, repository data, and contributions.
 
-![Project Screenshort ](./images/your-image.png)
+![Project Screenshort ](web-app-UI.png)
