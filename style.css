@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%; /* Base size of 10px for easier rem calculations */
+  background-color: #0d1117; /* Dark background */
+  color: #c9d1d9; /* Light gray text */
+}
+
+body {
+  font-size: 1.6rem; /* Default font size */
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #58a6ff; /* GitHub-like link color */
+}
+
+a:hover {
+  color: #79c0ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; /* Reduced gap for tighter layout */
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #f0f6fc; /* Lighter shade for headings */
+  margin-bottom: 1.5rem;
+}
+
+.search {
+  display: flex;
+  width: 90%;
+  max-width: 60rem;
+  background-color: #161b22; /* Darker background for search */
+  border: 1px solid #30363d; /* Subtle border */
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.search input {
+  padding: 1.2rem;
+  width: 100%;
+  background-color: transparent; /* Transparent to match dark background */
+  color: #c9d1d9;
+  border: none;
+  font-size: 1.6rem;
+  outline: none;
+}
+
+.search input:focus {
+  border-bottom: 2px solid #58a6ff; /* Highlight on focus */
+  transition: border 0.3s ease;
+}
+
+.primary-btn {
+  background: #238636; /* GitHub green button */
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.6rem;
+  transition: background 0.3s ease;
+}
+
+.primary-btn:hover {
+  background: #2ea043;
+}
+
+.primary-btn:active {
+  background: #56d364;
+}
+
+#profileContainer {
+  width: 100%;
+}
+
+.profile-box {
+  margin: auto;
+  padding: 2rem;
+  width: 90%;
+  max-width: 70rem;
+  background-color: #161b22; /* Dark background for profile box */
+  border: 1px solid #30363d; /* Subtle border */
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.profile-box:hover {
+  transform: scale(1.03);
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.left h1 {
+  font-size: 1.8rem;
+  color: #f0f6fc;
+}
+
+.avatar {
+  height: 10rem;
+  width: 10rem;
+}
+
+.avatar img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid #58a6ff; /* Blue border for avatar */
+}
+
+.about {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #21262d; /* Darker background for about section */
+  border-radius: 6px;
+}
+
+.status {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
+}
+
+.status-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #21262d; /* Dark background for status items */
+  padding: 1.2rem;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.status-item:hover {
+  transform: translateY(-5px); /* Lift effect */
+}
+
+.status-item h3 {
+  font-size: 1.4rem;
+  color: #8b949e; /* Lighter color for status headings */
+  margin-bottom: 0.5rem;
+}
+
+.status-item p {
+  font-size: 1.6rem;
+  color: #f0f6fc;
+}
