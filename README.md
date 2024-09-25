@@ -1,4 +1,4 @@
-<B> Github Profile Search Tool by Username </b><br>
+<h1> <B> Github Profile Search Tool by Username </b></h1><br>
 Key Features:<br>
 Search and filter GitHub profiles by repositories, languages, stars, and forks.<br>
 Visualized user activity patterns and contribution graphs.<br>
